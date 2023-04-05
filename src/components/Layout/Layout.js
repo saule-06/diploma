@@ -1,5 +1,6 @@
 import Nav from "../../Nav/Nav";
 import logo from "../../assets/logo.png";
+import "./Layout.css";
 
 export default function Layout(props) {
   return (
