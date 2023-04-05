@@ -1,0 +1,11 @@
+.Nav .NavItem a {
+  color: blue;
+  text-decoration: none;
+  
+}
+.Nav ul {
+  display: flex;
+}
+.Nav ul li {
+  list-style-type: none;
+}
