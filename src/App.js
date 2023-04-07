@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import Delivery from "./pages/Delivery";
 import Category from "./pages/Category";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Route path="/contacts" element={<Contacts/>} />
           <Route path="/delivery" element={<Delivery/>} />
           <Route path="/categories/:slug" element={<Category />} />
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </div>
