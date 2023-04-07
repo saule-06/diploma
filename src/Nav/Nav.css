@@ -7,5 +7,7 @@
   display: flex;
 }
 .Nav ul li {
+  text-align: center;
   list-style-type: none;
+  margin: 20px;
 }

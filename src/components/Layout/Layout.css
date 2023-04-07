@@ -21,6 +21,6 @@
   grid-area: footer;
 }
 
-.Layout .logo {
-  max-width: 100px;
+.Layout .logo  {
+  max-width: 100px; 
 }
