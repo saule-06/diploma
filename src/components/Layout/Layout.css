@@ -1,6 +1,6 @@
 .Layout { 
   display: grid;
-  grid-template-areas: "header header"
+  grid-template-areas: "aside header"
   "aside main"
   "footer footer";
   grid-template-columns: 1fr 3fr;

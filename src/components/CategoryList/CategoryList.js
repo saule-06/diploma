@@ -2,6 +2,8 @@
 import { NavLink } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../../App";
+import Product from "../../pages/Product";
+import "./CategoryList.css";
 
 export default function CategoryList() {
   const { categories } = useContext(AppContext);

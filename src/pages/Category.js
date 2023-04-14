@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { AppContext } from "../App";
 import ProductList from "../components/ProductList/ProductList";
 
+
 export default function Category() {
   const { params } = useMatch("/categories/:slug");
   const { categories } = useContext(AppContext);
@@ -18,7 +19,7 @@ export default function Category() {
   return (
     <div className="Category">
       <h1>{category.name}</h1>
-      <ProductList />
+      <ProductList category={category} />
     </div>
   );
 }

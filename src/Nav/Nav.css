@@ -1,7 +1,9 @@
 .Nav .NavItem a {
   color: blue;
   text-decoration: none;
-  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 .Nav ul {
   display: flex;

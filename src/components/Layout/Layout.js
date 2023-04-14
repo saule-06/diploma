@@ -8,10 +8,10 @@ export default function Layout(props) {
   return (
     <div className="Layout">
       <header>
-        <Logo />
         <Nav />
       </header>
       <aside>
+        <Logo />
         <CategoryList />
       </aside>
       <main>{props.children}</main>

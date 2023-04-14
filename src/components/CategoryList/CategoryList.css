@@ -1,0 +1,17 @@
+.CategoryList ul li{
+  list-style-type: none;
+  margin-bottom: 27px;
+  
+  
+} 
+.CategoryList a {
+  text-decoration: none;
+  line-height: 1;
+  font-size: 15px;
+  font-weight: 600;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.CategoryList{
+  
+}
