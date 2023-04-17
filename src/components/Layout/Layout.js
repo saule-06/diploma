@@ -3,12 +3,14 @@ import logo from "../../assets/logo.png";
 import "./Layout.css";
 import Logo from "../Logo/Logo";
 import CategoryList from "../CategoryList/CategoryList";
+import CartLink from "../CartLink/CartLink";
 
 export default function Layout(props) {
   return (
     <div className="Layout">
       <header>
         <Nav />
+        <CartLink />
       </header>
       <aside>
         <Logo />
