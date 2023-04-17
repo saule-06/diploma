@@ -1,5 +1,4 @@
 import Nav from "../../Nav/Nav";
-import logo from "../../assets/logo.png";
 import "./Layout.css";
 import Logo from "../Logo/Logo";
 import CategoryList from "../CategoryList/CategoryList";
