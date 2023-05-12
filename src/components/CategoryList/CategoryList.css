@@ -1,3 +1,9 @@
+.CategoryList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+}
 .CategoryList ul li{
   list-style-type: none;
   margin-bottom: 27px;
@@ -12,3 +18,5 @@
 
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
