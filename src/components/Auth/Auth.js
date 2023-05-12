@@ -16,7 +16,7 @@ export default function Auth() {
         </span>
       ) : (
         <span>
-          Hello guest!
+          {/* Hello guest! */}
           <button className="Test" onClick={logIn}>Sign in</button>
         </span>
       )}
