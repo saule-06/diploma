@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { AppContext } from "../../App";
+import { AppContext } from "../App";
 import { deleteDoc, doc } from "firebase/firestore";
-import { db } from "../../firebase";
+import { db } from "../firebase";
 
 export default function DeleteCategory({ category }) {
   const { user, products } = useContext(AppContext);
@@ -16,6 +16,10 @@ export default function DeleteCategory({ category }) {
     if (count > 0) {
       alert("This category has existing products. Please delete them before deleting a category.");
 
+      return;
+    }
+
+    if (!window.confirm("Are you sure you want to delete this category?")) {
       return;
     }
 
