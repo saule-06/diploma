@@ -1,8 +1,41 @@
-.Product {
+.ProductList {
   display: flex;
-  flex-direction: column;
-  max-width: 200px;
+  justify-content: space-between;
 }
-.ProductList .Product img {
-  width: 100%;
+
+.Product {
+  width: 300px;
+  text-align: center;
+  margin: 20px;
+  border-bottom: 2px solid #F5F5F5;
+  background: white;
+  font-family: "Open Sans";
+  transition: .3s ease-in;
+
 }
+.Product:hover {
+  border-bottom: 2px solid #fc5a5a;
+}
+.Product img {
+
+  display: block;
+  max-width: 100%;
+}
+.Product {
+  background: #fafafa;
+  padding: 15px 0;
+}
+.Product h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: #fc5a5a;
+  display: block;
+  margin-bottom: 12px;
+}
+
+
