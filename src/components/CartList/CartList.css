@@ -1,0 +1,49 @@
+.CartList {
+  width: 100%;
+}
+.CartList .CartItem {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(179, 178, 178);
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+.CartList .CartItem input {
+  width: 30px;
+}
+.CartList .CartItem .Cart_img{
+  width: 100px;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-1 {
+  background: rgb(166, 167, 226);
+  background: linear-gradient(0deg, rgb(126, 127, 197) 0%, rgb(109, 177, 245) 100%);
+  border: none;
+}
+.btn-1:hover {
+  background: rgb(122, 123, 136);
+  background: linear-gradient(0deg, rgb(125, 126, 131) 0%, rgb(153, 154, 160) 100%);
+}
+
+.CartList .CartItem .CartP   {
+  color: #000000;
+  text-decoration: none;
+}

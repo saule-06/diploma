@@ -29,8 +29,8 @@ export default function CartList() {
     // вывести товары и их кол-во
     .map((product) => (
       <div className="CartItem" key={product.id}>
-        <img src={product.picture} alt={product.name} />
-        <Link to={"/product/" + product.slug}>{product.name}</Link>
+        <img className="Cart_img" src={product.picture} alt={product.name} />
+        <Link className="Cart_product" to={"/product/" + product.slug}>{product.name}</Link>
 
         <input
           type="number"
@@ -39,8 +39,8 @@ export default function CartList() {
           onChange={(event) => onQuantityChange(product, +event.target.value)}
         />
 
-        <span>{cart[product.id] * product.price} som</span>
-        <button
+        <span>{cart[product.id] * product.price} $</span>
+        <button className="custom-btn btn-1"
           onClick={() => onItemRemove(product)}
         >Remove</button>
       </div>
