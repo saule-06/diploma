@@ -12,12 +12,12 @@ export default function Auth() {
       {user ? (
         <span>
           Hello <Link to="/orders">{user.displayName}</Link>!
-          <button className="Test" onClick={logOut}>Sign out</button>
+          <button className="Test button" onClick={logOut}><span>Sign out</span></button>
         </span>
       ) : (
         <span>
           {/* Hello guest! */}
-          <button className="Test" onClick={logIn}>Sign in</button>
+          <button className="Test button" onClick={logIn}><span>Sign in</span></button>
         </span>
       )}
     </div>
