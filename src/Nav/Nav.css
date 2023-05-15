@@ -1,15 +1,34 @@
-.Nav .NavItem a {
-  color: blue;
-  text-decoration: none;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: 600;
-}
+.Nav {
+  align-items: center;
+  justify-content: center;
+} 
 .Nav ul {
   display: flex;
 }
+.Nav li a {
+  color: blue;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.1s ease;
+}
+.Nav .NavItem a:hover, 
+.Nav .NavItem a.active {
+  color: black;
+}  
 .Nav ul li {
   text-align: center;
   list-style-type: none;
-  margin: 20px;
+  padding: 0 20px;
+  position: relative;
+}
+.Nav .NavItem a.active::after,
+.Nav .NavItem a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
 }
