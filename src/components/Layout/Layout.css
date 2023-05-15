@@ -11,7 +11,10 @@
 .Layout header {
   grid-area: header;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
 }
 .Layout aside {
   grid-area: aside;
