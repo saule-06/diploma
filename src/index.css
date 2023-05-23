@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Home {
+  element.style {
+  }
+  @media (max-width: 767px)
+  .elementor-reverse-mobile>.elementor-container>:nth-child(2) {
+      order: 9;
+  }
+  .elementor-element {
+      --widgets-spacing: 20px;
+  }
+  .elementor-element, .elementor-lightbox {
+      --swiper-theme-color: #000;
+      --swiper-navigation-size: 44px;
+      --swiper-pagination-bullet-size: 6px;
+      --swiper-pagination-bullet-horizontal-gap: 6px;
+  }
+  @media (max-width: 767px)
+  .elementor-column {
+      width: 100%;
+  }
+  .elementor-column {
+      position: relative;
+      min-height: 1px;
+      display: flex;
+  }
+}
