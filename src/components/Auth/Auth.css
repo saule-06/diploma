@@ -87,3 +87,6 @@ background: linear-gradient(0deg, rgb(17, 122, 163) 0%, rgba(2,126,251,1) 100%);
 .button span:hover:after {
   width: 100%;
 }
+.Auth {
+  padding: 35px;
+}
