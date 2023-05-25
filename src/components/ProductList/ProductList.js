@@ -14,12 +14,12 @@ export default function ProductList({category}) {
   .map(product => (
     <div className="Product" key={product.id}>
       <img src={product.picture} alt={product.name} />
-      <NavLink to={'/products/' + product.slug}>
+      <h3><NavLink to={'/products/' + product.slug}>
         {product.name}
-      </NavLink>
+      </NavLink></h3>
       <span className="price">{product.price} $</span>
       <p>{product.title}</p>
-      <AddToCart product={product} />
+      <div className="addcard"><AddToCart product={product} /> </div>
       <DeleteProduct product={product} />
     </div>
   ));
