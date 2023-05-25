@@ -1,3 +1,10 @@
 .CartLink {
   padding: 35px;
 }
+.CartLink svg {
+  color: blue;
+}
+.CartLink svg:hover {
+  color: #333;
+  transition: 0.3s;
+}
