@@ -9,6 +9,9 @@
   margin-bottom: 27px;
   
   
+}
+.CategoryList ul{
+  padding: 0;
 } 
 .CategoryList a {
   text-decoration: none;
