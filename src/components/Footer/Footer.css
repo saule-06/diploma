@@ -118,7 +118,10 @@
     font-size: 10px;
   }
 }
-
+.directions-to-administrator {
+  display: flex;
+  flex-direction: column;
+}
 
 .footer .footer-column .network-icons svg {
   transition: 0.9s;
