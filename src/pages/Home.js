@@ -9,6 +9,7 @@ export default function Home() {
         <img className="sweet" src="https://i.pinimg.com/originals/86/f7/9c/86f79cbeb584b68afe4c70cf24b4d252.jpg" alt="sweet" />
         <img className="sweet1" src="https://gagaru.club/uploads/posts/2023-02/1675916214_gagaru-club-p-pechene-raznotsvetnoe-makarons-instagram-2.jpg" alt="sweet1" /> 
       </div>
+      <h3>Life is sweeter with a little cake</h3>
     </div>
   );
 }
