@@ -1,7 +1,7 @@
 export default function Contacts() {
   return (
-    <div className="contacts-container container">
-      <h2 className="contacts-heading">Contact us</h2>
+    <div className="contacts-container-container">
+      <h1 className="contacts-heading">Contact us</h1>
       <div className="contact-details">
         <p>
           <strong className="contact-label">Address:</strong> Kyrgyzstan, Karakol, Esenina 1 
