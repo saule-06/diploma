@@ -13,6 +13,7 @@ code {
 }
 
 .Home {
+  
   element.style {
   }
   @media (max-width: 767px)
@@ -51,4 +52,22 @@ code {
 .About .cartochka {
   display: flex;
   
+}
+.Home img {
+  width: 100%;
+}
+.Home .catochka {
+  display: flex;
+
+}
+.Home .catochka img {
+  width: 48%;
+  padding-top: 20px;
+  
+}
+.Home .catochka .sweet {
+  padding-right: 15px;
+}
+.Home .catochka .sweet1 {
+  padding-left: 15px;
 }
