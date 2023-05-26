@@ -85,3 +85,82 @@ code {
   font-size: 35px;
   color: rgba(46, 84, 209, 0.822);
  }
+ .contacts-container-container h1 {
+  color: mediumorchid;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+ .delivery-container h1 {
+  color: mediumorchid;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+
+.delivery-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.delivery-text {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.delivery-info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.delivery-option {
+  flex: 1;
+  color: #333;
+  padding: 2px;
+}
+
+.delivery-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.delivery-option-heading {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.delivery-option-text {
+  color: #666;
+  line-height: 1.3;
+  text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+  .delivery-container {
+    padding: 10px;
+  }
+
+  .delivery-info {
+    flex-direction: column;
+  }
+
+  .delivery-option {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .delivery-heading {
+    font-size: 20px;
+  }
+
+  .delivery-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .delivery-option-heading {
+    font-size: 16px;
+  }
+}
